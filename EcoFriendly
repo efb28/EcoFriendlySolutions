@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFriendly Solutions</title>
+    <style>
+        /* Estilos CSS para el diseño */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .producto, .servicio {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+        .producto img, .servicio img {
+            max-width: 100%;
+            height: auto;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoFriendly Solutions</h1>
+        <p>Soluciones sostenibles para un futuro mejor</p>
+      <p1>Enya Flores Bravo</p1>
+    </header>
+    <nav>
+        <!-- Barra de navegación -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Contenido principal de la página -->
+        <section id="inicio">
+            <h2>Bienvenido a EcoFriendly Solutions</h2>
+           <img src="https://www.bing.com/images/blob?bcid=rIo5m3kbkBwHqLeFwqfm0Uh8OL.z.....xE">
+            <p>Somos una empresa comprometida con el medio ambiente, ofreciendo soluciones ecológicas para un futuro sostenible. Nuestro objetivo es proporcionar productos y servicios que ayuden a reducir el impacto ambiental y promuevan la sostenibilidad.</p>
+           
+        </section>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <p>Descubre nuestra gama de productos respetuosos con el medio ambiente:</p>
+            <div class="producto">
+                <h3>Paneles solares</h3>
+                <img src="https://th.bing.com/th/id/OIP.nz0FyEaU0-iYtOjRILIftAHaE9?w=281&h=188&c=7&r=0&o=5&pid=1.7">
+                <p>Los paneles solares son una excelente manera de aprovechar la energía del sol para generar electricidad limpia y sostenible.</p>
+            </div>
+            <div class="producto">
+                <h3>Bombillas LED de bajo consumo</h3>
+                <img src="https://th.bing.com/th/id/OIP.cugptCHXmIt3a2OpsBxJjQHaGL?w=236&h=197&c=7&r=0&o=5&pid=1.7">
+                <p>Nuestras bombillas LED consumen hasta un 80% menos de energía que las bombillas tradicionales y tienen una vida útil mucho más larga.</p>
+            </div>
+            <div class="producto">
+                <h3>Productos de limpieza biodegradables</h3>
+                <img src="https://th.bing.com/th/id/OIP.YzODS7DygjRZsA_dMfpC7wHaCu?w=316&h=128&c=7&r=0&o=5&pid=1.7">
+                <p>Ofrecemos una línea de productos de limpieza que son seguros para el medio ambiente y no contienen químicos dañinos.</p>
+            </div>
+        </section>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <p>Ofrecemos una variedad de servicios para ayudar a tu empresa a ser más sostenible:</p>
+            <div class="servicio">
+                <h3>Consultoría en eficiencia energética</h3>
+                <img src="https://portalsustentabilidade.com/wp-content/uploads/2023/11/design-destaque-6-1-768x432.jpg">
+                <p>Nuestros expertos pueden ayudarte a identificar oportunidades para reducir el consumo de energía y mejorar la eficiencia en tus operaciones.</p>
+            </div>
+            <div class="servicio">
+                <h3>Gestión de residuos</h3>
+                <img src="https://th.bing.com/th/id/OIP.YGQJix-QRoO0vbQzX5TiMwHaFu?w=235&h=181&c=7&r=0&o=5&pid=1.7">
+                <p>Ofrecemos soluciones para la gestión y el reciclaje de residuos, ayudándote a minimizar el impacto ambiental de tu empresa.</p>
+            </div>
+            <div class="servicio">
+                <h3>Capacitación en prácticas sostenibles</h3>
+                <img src="https://universidadean.edu.co/sites/default/files/2020-10/InfografiaPracticasSostenibles.jpg">
+                <p>Proporcionamos programas de capacitación para educar a tu personal sobre prácticas sostenibles y cómo implementarlas en el lugar de trabajo.</p>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¡Contáctanos para más información sobre nuestras soluciones ecológicas!</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
